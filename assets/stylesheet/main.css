@@ -77,13 +77,13 @@ body {
   }
 .logo {
   float: left;
-  padding-top: 50px;
+  padding-top: 95px;
   font-size: 50px;
   text-transform: uppercase;
   }
 .number {
   float: right;
-  padding: 20px;
+  padding: 70px;
   font-size: 25px;
   line-height: 1.2;
   color: #fafafa; 
@@ -94,7 +94,7 @@ body {
   font-size: 25px;
   }
 .menu {
-  padding: 60px;
+  padding: 80px;
   text-align: center;
   word-spacing: 10px;
   }
@@ -105,6 +105,13 @@ body {
   padding-bottom: 5px;
   vertical-align: middle;
   }
+
+
+/*
+  ==================================
+  Кнопки
+  ==================================
+*/
 .btn {
   border: 1px solid #1a237e;
   border-radius: 10px;
@@ -114,7 +121,6 @@ body {
   background: #fafafa;
   color: #1a237e;
   }
-
 
    
 /*
@@ -133,9 +139,10 @@ body {
   }
 .services img {
   height: 200px;
-  width: 250px;
+  width: 180px;
   margin-top: 50px;
-  margin-right: 10px;
+  margin-right: 40px;
+  margin-left: 40px;
   }
 .services a {
   display: inline-block;
@@ -151,10 +158,6 @@ body {
   text-align: center;
   padding-top: 20px;
   }
-.txt {
-  font-size: 25px;
-  color: #546e7a;
-  }
 
 
 /*
@@ -168,6 +171,10 @@ h1 {
  }
 h2 {
   font-size: 25px;
+  }
+.txt {
+  font-size: 25px;
+  color: #546e7a;
   }
 
 
@@ -183,60 +190,65 @@ a {
 a:hover {
   color: #fafafa;
   }
-
-/*
-  ==================================
-  Подвал
-  ==================================
-*/
-.tm {
-  float: left;
-  font-size: 20px;
-  }
-.footer-menu {
-  float: right;
-  font-size: 20px;
-  word-spacing: 10px;
-  }
-.footy {
-  width: 100%;
-  padding: 30px;
-  color: #1a237e;
-  }
   
-
-/*
+  
+  /*
   ==================================
   Тарифы
   ==================================
 */
 .rates {
   background: #fafafa;
-  padding: 100px 60px;
+  padding: 80px 60px;
   }
 .rates h2 {
   font-size: 35px;
   color: #4caf50;
   font-weight: 700;
   }
+  
+
+/*
+  ==================================
+  Подвал
+  ==================================
+*/
+
+footer {
+  background: radial-gradient(at bottom center, #fafafa 10%, #b2b2b2 50%);
+  width: 100%;
+  padding: 30px;
+  color: #1a237e;
+  }
+.alignment {
+  clear: both;
+  font-size: 20px;
+  }
+  
+
 /*
   ==================================
   Таблицы
   ==================================
 */
 table {
-  border: 2px solid #333;
-  border-spacing: 3px;
+  border-bottom: 2px solid #333;
+  border-collapse: separate;
+  border-spacing: 5px;
+  border-radius: 10px;
   width: 90%;
   margin-top: 50px;
-  margin-right: 10px; 
+  margin-right: 10px;
   }
 td {
   text-align: center;
   background: #eeeeee;
+  border-radius: 10px;
   }
 th {
   background: #e0e0e0;
+  vertical-align: middle;
+  border-radius: 10px;
   }
 caption {
   text-align: center;
@@ -245,9 +257,28 @@ caption {
   }
 td, th {
   padding: 5px 10px;
-  border: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
   }
 .special {
   background: #26c6da;
   color: #ffeb3b;
+  }
+.style1 {
+  margin: 35px; 60px;
+  width: 25%;
+  float: left;
+  border: 0;
+  }
+footer td {
+  font-size: 20px;
+  border: 0;
+  background: initial;
+  }
+footer th {
+  font-size: 25px;
+  border-bottom: 1px solid #283593;
+  border-radius: initial;
+  border-top: 0;
+  background: initial;
   }
