@@ -158,6 +158,15 @@ body {
   text-align: center;
   padding-top: 20px;
   }
+.services:hover.service {
+	transform: scale(0.9);
+  }
+.service {
+	transition: 1s;
+  }
+.service:hover {
+	transform: scale(1.1) !important;
+  }
 
 
 /*
