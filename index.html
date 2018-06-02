@@ -7,28 +7,50 @@
   </head>
   <body>
   
-    <header class="container">
-      <a href="index.html"><h1 class="logo">Rapid Transit</h1></a>
-       
-      <h2 class="number">Телефоны:<br>
-          8-916-032-25-54<br>
-          8-985-927-73-21<br>
-          8-963-554-32-43
-      </h2>
-        
-      <section class="about">  
-       <h1>Качество, Надёжность, Cкорость</h1><br>
-       <p>Полный спектр услуг.<br>
-          Перевозки по Москве и области.<br>
-          Квартирные, офисные, дачные переезды.
-       </p>
+    <header id="home">
         <nav class="menu">
-          <a class="btn" href="index.html"><img src=assets/images/home.png alt="">Главная</a>
-          <a class="btn" href="#service"><img src=assets/images/services.png alt="">Услуги</a>
-          <a class="btn" href="#rate"><img src=assets/images/rates.png alt="">Тарифы</a>
-          <a class="btn" href="#contacts"><img src=assets/images/contacts.png alt="">Контакты</a>
-        </nav>
-      </section>      
+            <a class="btn" href="index.html"><img src=assets/images/home.png alt="">Главная</a>
+            <a class="btn" href="#service"><img src=assets/images/services.png alt="">Услуги</a>
+            <a class="btn" href="#rate"><img src=assets/images/rates.png alt="">Тарифы</a>
+            <a class="btn" href="#contacts"><img src=assets/images/writing.png alt="">Контакты</a>
+            <a class="btn" href="#contacts"><img src=assets/images/contacts.png alt="">Обратный звонок</a>
+          </nav>
+      <div class="container">   
+        <a href="index.html"><h1 class="logo">Rapid Transit</h1></a>
+         
+        <div>
+          <ul class="number">Наши телефоны
+            <li>Мегафон
+              <ul class="submenu">
+                <li>8-926-032-25-54</li>
+              </ul>  
+            </li>
+              <li>МТС
+                <ul class="submenu">
+                  <li>8-985-927-73-21</li>
+                </ul>
+              </li>
+              <li>Билайн
+                <ul class="submenu">
+                  <li>8-963-554-32-43</li> 
+                </ul>
+              </li>           
+            <li>Tele2
+              <ul class="submenu">
+                <li>8-901-328-44-07</li>
+              </ul>
+            </li>
+          </ul>          
+        </div>    
+        
+        <section class="about">  
+         <h1>Качество, Надёжность, Cкорость</h1><br>
+         <p>Полный спектр услуг.<br>
+            Перевозки по Москве и области.<br>
+            Квартирные, офисные, дачные переезды.
+         </p>
+        </section>
+      </div>       
     </header>
 
     <div id="service" class="heady">
@@ -42,7 +64,8 @@
           <h3>Офисный переезд</h3></a>  
         <a href="recovery.html"><p><img src=assets/images/old_furniture.png alt="Утилизация" class="service"></p>
           <h3>Утилизация<h3></a>
-        <p class="txt">У нас Вы получите качественный сервис без дополнительных платежей. <br>Тара для упаковки — бесплатно. Все машины — с пропуском в центр.</p>
+        <p class="txt">У нас Вы получите качественный сервис без дополнительных платежей. Тара для упаковки — бесплатно. Все машины — с пропуском в центр. Любые виды переездов выполним качественно и быстро благодаря большому опыту и профессионализму. Для постоянных клиентов предусмотрены скидки. <br>
+        Ответственность и серьёзный подход к делу — наши главные составляющие успеха.</p>
       </section>   
     </div>
     
@@ -77,55 +100,44 @@
      </table>
     </div>
        
-    <footer id="contacts">
+    <footer id="contacts" class="container">
         <table class="style1">
-          <th scope="col">Наши контакты</th>
+          <th>Наши контакты</th>
           <tr>
-            <td>тел.: 8-916-455-45-87</td>
+            <td>Телефоны
+              <ul>
+                <li>8-916-032-25-54</li>
+                <li>8-985-927-73-21</li>
+                <li>8-963-554-32-43</li>
+            </td>
           </tr>
           <tr>  
-            <td>e-mail: moving@rapidtransit.com</td>
+            <td><a href="mailto:moving@rapidtransit.com">e-mail: moving@rapidtransit.com</a></td>
           </tr>
           <tr>
-            <td>Заказать обратный звонок</td>
+            <td><a href="#">Заказать обратный звонок</a></td>
           </tr>  
         </table>
         <table class="style1">
-          <th scope="col">Наши возможности</th>
+          <th>Наши возможности</th>
           <tr>
-            <td>Квартирный переезд</td>
+            <td><a href="apartment_move.html">Квартирный переезд</a></td>
           </tr>
           <tr>
-            <td>Офисный переезд</td>
+            <td><a href="office_move.html">Офисный переезд</a></td>
           </tr>
           <tr>
-            <td>Дачный переезд</td>
+            <td><a href="country_move.html">Дачный переезд</a></td>
           </tr>
           <tr>
-            <td>Утилизация</td>
-          </tr>
-        </table>
-        <table class="style1">
-          <th scope="col">Навигация</th>
-          <tr>
-            <td>Главная</td>
-          </tr>
-          <tr>
-            <td>Услуги</td>
-          </tr>
-          <tr>
-            <td>Тарифы</td>
-          </tr>
-          <tr>
-            <td>Контакты</td>
-          </tr>
-          <tr>
-            <td>Карта сайта</td>
+            <td><a href="recovery.html">Утилизация</a></td>
           </tr>
         </table>
-          <section class="alignment container">
-            <small>&copy; Rapid Transit</small> 
-          </section>  
-    </footer> 
+        <section class="alignment container">
+          <p class="alignment">&copy; Rapid Transit</p>
+          <p class="alignment forpfoot">Карта сайта</p>
+        </section>
+    </footer>    
+    <div class="fixedbut"><a href="#"><img src=assets/images/icon_top.png alt="Наверх"</a></div> 
   </body>
 </html>
